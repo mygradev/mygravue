@@ -1,5 +1,8 @@
 import Vue from 'vue';
+import MgVue from './index';
 import App from './App.vue';
+
+Vue.use(MgVue);
 
 Vue.config.productionTip = false;
 
