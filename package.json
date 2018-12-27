@@ -1,12 +1,12 @@
 {
-  "name": "vue-mygracss",
+  "name": "@mygradev/mygravue",
   "version": "0.1.0",
   "private": true,
-  "main": "./dist/mgvue.common.js",
+  "main": "./dist/mygravue.common.js",
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name mgvue ./src/index.js",
+    "build-bundle": "vue-cli-service build --target lib --name mygravue ./src/index.js",
     "lint": "vue-cli-service lint"
   },
   "files": [
