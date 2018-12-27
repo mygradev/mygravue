@@ -2,13 +2,20 @@
   "name": "vue-mygracss",
   "version": "0.1.0",
   "private": true,
-  "main": "./dist/",
+  "main": "./dist/mgvue.common.js",
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-bundle": "vue-cli-service build --target lib --name mgvue ./src/index.js",
     "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
     "@mygradev/mygracss": "file:../../../CSS/mygracss",
     "vue": "^2.5.17"
