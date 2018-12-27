@@ -3,7 +3,7 @@
     :class="className"
     @click="click"
     @mousedown="mousedown"
-    @mouseup="mouseup">{{text}}</button>
+    @mouseup="mouseup"><slot/></button>
 </template>
 
 <script>
