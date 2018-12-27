@@ -29,4 +29,3 @@ export const marginprops = {
   mb: Number,
   ml: Number,
 };
-
